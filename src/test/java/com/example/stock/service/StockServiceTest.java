@@ -20,7 +20,7 @@ import com.example.stock.repository.StockRepository;
 public class StockServiceTest {
 
     @Autowired
-    private StockService stockService;
+    private StockWithPessimisticLockService stockService;
 
     @Autowired
     private StockRepository stockRepository;
